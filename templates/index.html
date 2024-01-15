@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\backstage\RPG\styles.css">
+    <title>The RPG</title>
+  </head>
+  <body>
+    <div id="game">
+      <div id="stats">
+        <span class="stat">LVL: <strong><span id="levelText">1</span></strong></span>
+        <span class="stat">Health: <strong><span id="healthText"></span></strong></span>
+        <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+        <span id="s">Strength: <strong = id="st"></strong></span>
+        <span id="d">Dexterity: <strong = id="dx"></strong></span>
+        <span id="v">Vitality: <strong = id="vt"></strong></span>
+        <button id="button4">Inventory</button>
+      </div>
+      <div id="controls">
+        <button id="button1">Go to Store</button>
+        <button id="button2">Go to Graveyard</button>
+        <button id="button3">Fight Dragon</button>
+        
+      </div>
+      <div id="monsterStats">
+        <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+        <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+      </div>
+      <div id="text">
+        Welcome to the RPG. You must defeat the monsters that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+      </div>
+      <div id="log">
+      </div>
+      <div>
+      <ul id="inventory" class="inventory"> <strong>Inventory</strong>
+      </ul>
+      <ul id="equipped-items"></ul>
+      </div>
+        </ul>
+        <ul id="shop">
+            <li class="item" data-item="Iron Sword" data-price="20">Iron Sword - $20</li>
+            <li class="item" data-item="Steel Hammer" data-price="50">Steel Hammer - $50</li>
+            <li class="item" data-item="Magical Sword" data-price="100">Magical Sword - $100</li>
+            <li class="item" data-item="Leather" data-price="15">Leather - $15</li>
+            <li class="item" data-item="Chainmail" data-price="30">Chainmail - $30</li>
+            <li class="item" data-item="Steelplate" data-price="75">Steelplate - $75</li>
+            <li class="item" data-item="Dragonplate" data-price="150">Dragonplate - $150</li>
+            <button id="buy">Buy Item</button>
+        </ul>
+    </div>
+    <script src="../game.js"></script>
+    
+  </body>
+  
+</html>
